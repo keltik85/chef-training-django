@@ -1,0 +1,83 @@
+I, [2016-10-31T07:01:21.476836 #6492]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2016-10-31T07:01:21.479337 #6492]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2016-10-31T07:01:21.480337 #6492]  INFO -- default-ubuntu-1404: Preparing dna.json
+I, [2016-10-31T07:01:21.481837 #6492]  INFO -- default-ubuntu-1404: Resolving cookbook dependencies with Berkshelf 5.1.0...
+I, [2016-10-31T07:01:31.086557 #6492]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2016-10-31T07:01:31.126062 #6492]  INFO -- default-ubuntu-1404: Preparing validation.pem
+I, [2016-10-31T07:01:31.129062 #6492]  INFO -- default-ubuntu-1404: Preparing client.rb
+I, [2016-10-31T07:01:31.267580 #6492]  INFO -- default-ubuntu-1404: -----> Installing Chef Omnibus (install only if missing)
+I, [2016-10-31T07:01:31.269580 #6492]  INFO -- default-ubuntu-1404: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2016-10-31T07:01:31.271080 #6492]  INFO -- default-ubuntu-1404: Trying wget...
+I, [2016-10-31T07:01:32.232702 #6492]  INFO -- default-ubuntu-1404: Download complete.
+I, [2016-10-31T07:01:32.244704 #6492]  INFO -- default-ubuntu-1404: ubuntu 14.04 x86_64
+I, [2016-10-31T07:01:32.246204 #6492]  INFO -- default-ubuntu-1404: Getting information for chef stable  for ubuntu...
+I, [2016-10-31T07:01:32.247704 #6492]  INFO -- default-ubuntu-1404: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=14.04&m=x86_64
+I, [2016-10-31T07:01:32.249704 #6492]  INFO -- default-ubuntu-1404:   to file /tmp/install.sh.1163/metadata.txt
+I, [2016-10-31T07:01:32.251205 #6492]  INFO -- default-ubuntu-1404: trying wget...
+I, [2016-10-31T07:01:33.042805 #6492]  INFO -- default-ubuntu-1404: sha1	a2de7d933734d3a0c4b859576d0be472c5cd55f7
+I, [2016-10-31T07:01:33.044305 #6492]  INFO -- default-ubuntu-1404: sha256	7073541beb4294c994d4035a49afcf06ab45b3b3933b98a65b8059b7591df6b8
+I, [2016-10-31T07:01:33.046306 #6492]  INFO -- default-ubuntu-1404: url	https://packages.chef.io/files/stable/chef/12.15.19/ubuntu/14.04/chef_12.15.19-1_amd64.deb
+I, [2016-10-31T07:01:33.049306 #6492]  INFO -- default-ubuntu-1404: version	12.15.19
+I, [2016-10-31T07:01:33.050806 #6492]  INFO -- default-ubuntu-1404: downloaded metadata file looks valid...
+I, [2016-10-31T07:01:33.052306 #6492]  INFO -- default-ubuntu-1404: downloading https://packages.chef.io/files/stable/chef/12.15.19/ubuntu/14.04/chef_12.15.19-1_amd64.deb
+I, [2016-10-31T07:01:33.053807 #6492]  INFO -- default-ubuntu-1404:   to file /tmp/install.sh.1163/chef_12.15.19-1_amd64.deb
+I, [2016-10-31T07:01:33.054807 #6492]  INFO -- default-ubuntu-1404: trying wget...
+I, [2016-10-31T07:01:42.856551 #6492]  INFO -- default-ubuntu-1404: Comparing checksum with sha256sum...
+I, [2016-10-31T07:01:43.038574 #6492]  INFO -- default-ubuntu-1404: 
+I, [2016-10-31T07:01:43.040075 #6492]  INFO -- default-ubuntu-1404: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2016-10-31T07:01:43.041075 #6492]  INFO -- default-ubuntu-1404: 
+I, [2016-10-31T07:01:43.043075 #6492]  INFO -- default-ubuntu-1404: You are installing an omnibus package without a version pin.  If you are installing
+I, [2016-10-31T07:01:43.044575 #6492]  INFO -- default-ubuntu-1404: on production servers via an automated process this is DANGEROUS and you will
+I, [2016-10-31T07:01:43.047576 #6492]  INFO -- default-ubuntu-1404: be upgraded without warning on new releases, even to new major releases.
+I, [2016-10-31T07:01:43.048576 #6492]  INFO -- default-ubuntu-1404: Letting the version float is only appropriate in desktop, test, development or
+I, [2016-10-31T07:01:43.050076 #6492]  INFO -- default-ubuntu-1404: CI/CD environments.
+I, [2016-10-31T07:01:43.051576 #6492]  INFO -- default-ubuntu-1404: 
+I, [2016-10-31T07:01:43.053076 #6492]  INFO -- default-ubuntu-1404: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2016-10-31T07:01:43.054076 #6492]  INFO -- default-ubuntu-1404: 
+I, [2016-10-31T07:01:43.055577 #6492]  INFO -- default-ubuntu-1404: Installing chef 
+I, [2016-10-31T07:01:43.056577 #6492]  INFO -- default-ubuntu-1404: installing with dpkg...
+I, [2016-10-31T07:01:43.138087 #6492]  INFO -- default-ubuntu-1404: Selecting previously unselected package chef.
+I, [2016-10-31T07:01:43.160590 #6492]  INFO -- default-ubuntu-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 32949 files and directories currently installed.)
+I, [2016-10-31T07:01:43.162090 #6492]  INFO -- default-ubuntu-1404: Preparing to unpack .../chef_12.15.19-1_amd64.deb ...
+I, [2016-10-31T07:01:43.173092 #6492]  INFO -- default-ubuntu-1404: Unpacking chef (12.15.19-1) ...
+I, [2016-10-31T07:01:49.284868 #6492]  INFO -- default-ubuntu-1404: Setting up chef (12.15.19-1) ...
+I, [2016-10-31T07:01:49.376379 #6492]  INFO -- default-ubuntu-1404: Thank you for installing Chef!
+I, [2016-10-31T07:01:49.469391 #6492]  INFO -- default-ubuntu-1404: Transferring files to <default-ubuntu-1404>
+I, [2016-10-31T07:01:50.996585 #6492]  INFO -- default-ubuntu-1404: Starting Chef Client, version 12.15.19
+I, [2016-10-31T07:01:52.447769 #6492]  INFO -- default-ubuntu-1404: Creating a new client identity for default-ubuntu-1404 using the validator key.
+I, [2016-10-31T07:01:52.660296 #6492]  INFO -- default-ubuntu-1404: resolving cookbooks for run list: ["django::default"]
+I, [2016-10-31T07:01:52.671798 #6492]  INFO -- default-ubuntu-1404: Synchronizing Cookbooks:
+I, [2016-10-31T07:01:52.683299 #6492]  INFO -- default-ubuntu-1404:   - django (0.1.0)
+I, [2016-10-31T07:01:52.684799 #6492]  INFO -- default-ubuntu-1404: Installing Cookbook Gems:
+I, [2016-10-31T07:01:52.686800 #6492]  INFO -- default-ubuntu-1404: Compiling Cookbooks...
+I, [2016-10-31T07:01:52.687800 #6492]  INFO -- default-ubuntu-1404: Converging 0 resources
+I, [2016-10-31T07:01:52.719304 #6492]  INFO -- default-ubuntu-1404: 
+I, [2016-10-31T07:01:52.720804 #6492]  INFO -- default-ubuntu-1404: Running handlers:
+I, [2016-10-31T07:01:52.722804 #6492]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2016-10-31T07:01:52.724304 #6492]  INFO -- default-ubuntu-1404: Chef Client finished, 0/0 resources updated in 01 seconds
+I, [2016-10-31T07:01:52.778811 #6492]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (0m31.30s).
+I, [2016-10-31T07:01:52.779811 #6492]  INFO -- default-ubuntu-1404: -----> Setting up <default-ubuntu-1404>...
+I, [2016-10-31T07:01:52.782812 #6492]  INFO -- default-ubuntu-1404: Finished setting up <default-ubuntu-1404> (0m0.00s).
+I, [2016-10-31T07:01:52.783812 #6492]  INFO -- default-ubuntu-1404: -----> Verifying <default-ubuntu-1404>...
+I, [2016-10-31T07:01:53.145358 #6492]  INFO -- default-ubuntu-1404: Use `C:/Users/altug/learn-chef/episode-2/django/test/recipes/default` for testing
+E, [2016-10-31T07:01:53.304378 #6492] ERROR -- default-ubuntu-1404: Verify failed on instance <default-ubuntu-1404>.
+E, [2016-10-31T07:01:53.304878 #6492] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2016-10-31T07:01:53.304878 #6492] ERROR -- default-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2016-10-31T07:01:53.304878 #6492] ERROR -- default-ubuntu-1404: Message: Inspec Runner returns 1
+E, [2016-10-31T07:01:53.304878 #6492] ERROR -- default-ubuntu-1404: ----------------------
+E, [2016-10-31T07:01:53.304878 #6492] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2016-10-31T07:01:53.304878 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-inspec-0.15.2/lib/kitchen/verifier/inspec.rb:77:in `call'
+E, [2016-10-31T07:01:53.304878 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:430:in `block in verify_action'
+E, [2016-10-31T07:01:53.304878 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:520:in `synchronize_or_call'
+E, [2016-10-31T07:01:53.305378 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:485:in `block in action'
+E, [2016-10-31T07:01:53.305378 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-10-31T07:01:53.305378 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:484:in `action'
+E, [2016-10-31T07:01:53.305378 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:422:in `verify_action'
+E, [2016-10-31T07:01:53.305378 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:355:in `block in transition_to'
+E, [2016-10-31T07:01:53.305378 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `each'
+E, [2016-10-31T07:01:53.305378 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `transition_to'
+E, [2016-10-31T07:01:53.305378 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2016-10-31T07:01:53.305378 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2016-10-31T07:01:53.305378 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2016-10-31T07:01:53.305378 #6492] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2016-10-31T07:01:53.305878 #6492] ERROR -- default-ubuntu-1404: ----End Backtrace-----

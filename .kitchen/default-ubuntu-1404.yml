@@ -1,0 +1,6 @@
+---
+hostname: 127.0.0.1
+port: '2222'
+username: vagrant
+ssh_key: C:/Users/altug/learn-chef/episode-2/django/.kitchen/kitchen-vagrant/kitchen-django-default-ubuntu-1404/.vagrant/machines/default/virtualbox/private_key
+last_action: setup
